@@ -16,14 +16,12 @@ export default class MapContainer extends React.Component<MapContainerProps, any
     }, 5000)
   }
   render() {
-    return (
+    return this.state.show ? (
       <div>
-        {this.state.show ? (
-          <MapControl position={google.maps.ControlPosition.TOP_CENTER}>
-            <div>That was easy</div>
-          </MapControl>
-        ) : null}
+        <MapControl position={google.maps.ControlPosition.TOP_CENTER}>
+          <div>That was easy</div>
+        </MapControl>
       </div>
-    )
+    ) : null
   }
 }

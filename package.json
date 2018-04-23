@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/googlemaps": "^3.30.8",
+    "@types/moment": "^2.13.0",
+    "@types/react": "^16.1.0",
+    "@types/react-dom": "^16.0.4",
+    "chart.js": "^2.7.2",
+    "gradient-color": "^2.0.1",
+    "moment": "^2.13.0",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0",
+    "react": "^16.2.0",
+    "react-canvas-gauges": "https://github.com/1995parham/react-canvas-gauges.git",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-show": "^2.0.4",
+    "recompose": "^0.26.0",
+    "typescript": "^2.8.1"
+  }
+}
